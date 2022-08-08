@@ -4,6 +4,7 @@
   background-color: #240046;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
+  scroll
 }
 
 .login-div {
@@ -188,5 +189,10 @@ textarea {
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+option {
+  /* max-width: 80%;  */
+  width: 90%;
 }
 }
