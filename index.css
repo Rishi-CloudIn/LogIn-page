@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  background-color: #240046;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.login-div {
+  vertical-align: center;
+  position: relative; 
+}
+
+i {
+  position: absolute;
+  top: .3rem;
+  left: 90rem;
+  font-size: 50px;
+}
+
+.login-h1{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.login-p {
+  text-align: center;
+  margin-top: 30px;
+  font-size: .8rem;
+  font-weight: 600;
+}
+.input{
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #fff;
+  background-color: #240046; 
+  width: 90%;
+  height: 50px;
+  margin-bottom: 50px;
+  font-weight: 600; 
+}
+
+.input::placeholder {
+  color: #dee2e6;
+}
+.login-form {
+  width: 60%;
+  margin: 40px auto;
+}
+
+.button {
+  width: 30%;
+  margin: 10px auto;
+  margin-top: 70px;
+  padding: 20px;
+  border: 1px solid #ffffff ;
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600  ;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #240046 ;
+  transition: 0.3s; 
+}
+
+/* .dropdown {
+  width: 150px;
+	padding: 2px;
+	background-image: url(); /* replace with anything */
+	/* background-repeat: no-repeat;
+	background-position: 98% center;
+}  */
+
+textarea {
+  resize: none;
+  width: 94% !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .login-form {
+  width: 90%;
+  margin: 0 auto;
+}
+}
+
+@media only screen and (max-width: 576px) {
+  .login-form {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.input{
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #fff;
+  background-color: #240046; 
+  width: 90%;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.massage-label{
+  margin: 0 0 10px 20px;
+}
+
+}
