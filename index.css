@@ -7,15 +7,15 @@
 }
 
 .login-div {
-  vertical-align: center;
-  position: relative; 
+  vertical-align: center; 
 }
 
 i {
   position: absolute;
   top: .3rem;
-  left: 90rem;
+  right: -5rem;
   font-size: 50px;
+  z-index: 1;
 }
 
 .login-h1{
@@ -48,6 +48,7 @@ i {
 .login-form {
   width: 60%;
   margin: 40px auto;
+  position: relative;
 }
 
 .button {
@@ -68,31 +69,85 @@ i {
   transition: 0.3s; 
 }
 
-/* .dropdown {
-  width: 150px;
-	padding: 2px;
-	background-image: url(); /* replace with anything */
-	/* background-repeat: no-repeat;
-	background-position: 98% center;
-}  */
-
 textarea {
   resize: none;
-  width: 94% !important;
+  width: 90% !important;
 }
+
+/* responsive 1200px */
 
 @media only screen and (max-width: 1200px) {
   .login-form {
   width: 90%;
   margin: 0 auto;
 }
+.input {
+  margin-left: 20px; 
 }
 
-@media only screen and (max-width: 576px) {
+.message-label{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+i {
+  position: absolute;
+  margin-top: 20px;
+  top: -3rem;
+  right: -1rem;
+  font-size: 50px;
+  z-index: 1;
+}
+}
+
+
+
+@media only screen and (max-width: 715px) {
   .login-form {
+  width: 90%;
+  margin: 0 auto;
+}
+
+i {
+  position: absolute;
+  margin-top: 20px;
+  top: -3rem;
+  right: 0rem;
+  font-size: 50px;
+  z-index: 1;
+}
+
+
+}
+
+/* responsive 576px */
+
+@media only screen and (max-width: 576px) {
+
+  .login-div{
+    margin-top: 80px;
+  }
+
+.login-form {
   width: 100%;
   margin: 0 auto;
+  margin-top: 60px;
+}
+
+.login-h1{
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.login-p {
+  text-align: center;
   margin-top: 30px;
+  margin-left: 5px;
+  font-size: .6rem;
+  font-weight: 600;
 }
 
 .input{
@@ -100,13 +155,38 @@ textarea {
   border-width: 0 0 2px;
   border-color: #fff;
   background-color: #240046; 
-  width: 90%;
+  width: 100%;
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
-.massage-label{
+.message-label{
   margin: 0 0 10px 20px;
 }
 
+i {
+  position: absolute;
+  margin-top:-13px;
+  top: -3rem;
+  right: -0rem;
+  font-size: 50px;
+  z-index: 1;
+}
+
+textarea {
+  resize: none;
+  width: 100% !important;
+}
+
+.button {
+  width: 30%;
+  margin: 0px auto;
+  /* margin-top: 70px; */
+  padding: 20px;
+  border: 1px solid #ffffff ;
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
 }
